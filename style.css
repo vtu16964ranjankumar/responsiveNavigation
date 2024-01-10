@@ -16,7 +16,8 @@ html{
     background-color: dodgerblue;
 }
 .header .logo {
-    height: 3rem;
+    height: 4.5rem;
+    border-radius: 50%;
 }
 .navbar-list{
     display: flex;
@@ -24,16 +25,34 @@ html{
     list-style: none;
 }
 
-.navbar-link:active,
+.navbar-link:link,
 .navbar-link:visited{
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
     color: #ffffff;
     transition: all 0.3s ease;
 }
 .navbar-link:hover,
 .navbar-link:active{
-    color: rgb(23, 24, 33);
+    color: rgb(82, 80, 80);
+    
 }
+.mobile-navbar-btn{
+    display: none;
+    background: transparent;
+    cursor: pointer;
+    color: #ffffff;
+}
+.mobile-nav-icon{
+    width: 4rem;
+    height: 4rem;
+    color: #ffffff;
+}
+.mobile-nav-icon[name="close-outline"]{
+    display: none;
+}
+
+/* YTB time:24:35  */
