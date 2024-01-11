@@ -59,6 +59,8 @@ body{
     display: none;
 }
 
+/* ==================== Media Queries ==================== */
+
 @media(max-width:62em){
     .mobile-navbar-btn{
         display: block;
@@ -79,6 +81,7 @@ body{
         background: dodgerblue;
         position: absolute;
         top: 0;
+        left: 0;
 
         display: flex;
         justify-content: center;
@@ -102,10 +105,12 @@ body{
         visibility: visible;
         pointer-events: auto;
     }
-    .active .mobile-nav-btn .mobile-nav-icon[name="close-outline"]{
+    .active .mobile-nav-btn 
+    .mobile-nav-icon[name="close-outline"]{
         display: block;
     }
-    .active .mobile-nav-btn .mobile-nav-icon[name="menu-outline"]{
+    .active .mobile-nav-btn 
+    .mobile-nav-icon[name="menu-outline"]{
         display: none;
     }
 }
